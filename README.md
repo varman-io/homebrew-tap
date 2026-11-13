@@ -1,5 +1,7 @@
 # Varman Homebrew tap
 
 ```sh
-brew install --cask varman-io/tap/varman-device-agent
+brew tap varman-io/tap
+brew trust varman-io/tap
+brew install --cask varman-device-agent
 ```
